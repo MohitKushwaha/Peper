@@ -29,12 +29,12 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Additional Node Module Required for App
 IndexedDB is the low-level API for client-side storage (in-browser database)  
 Dexie.js is the Minimalistic Wrapper for IndexedDB  
-npm install dexie
+`npm install dexie`
 
 ## Additional Angular Module Required for App
-Learn more about Progressive Web Apps: https://web.dev/what-are-pwas/  
-ng add @angular/pwa
+Learn more about [Progressive Web Apps](https://web.dev/what-are-pwas/  )
+`ng add @angular/pwa`
 
 ## Additional Node Module Required for Server
 Express is the web framework used here for Node.js  
-npm install express --save
+`npm install express --save`
