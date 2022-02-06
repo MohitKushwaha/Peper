@@ -44,4 +44,4 @@ Express is the web framework used here for Node.js
 
 ## What next?
 
-The projects expects the interested developers to use a database on server or cloud for data storage and authentication.
+The project expects the developers to use a database on server or cloud for data storage and custom logic for authentication.
