@@ -42,6 +42,6 @@ Learn more about [Progressive Web Apps](https://web.dev/what-are-pwas/)
 Express is the web framework used here for Node.js  
 `npm install express --save`
 
-## Additional Node Module Required for Server
+## What next?
 
 The projects expects the interested developers to use a database on server or cloud for data storage and authentication.
