@@ -1,5 +1,6 @@
 # Peper
-
+An Angular Project with simple browser solution for note keeping using in-browser database IndexedDB with a layer of Dexie.js wrapper and SCSS for styling.  
+The project follows the guidelines of Progressive Web Apps. It is installable with full offline support.     
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.5.
 
 ## Development server
@@ -38,3 +39,5 @@ Learn more about [Progressive Web Apps](https://web.dev/what-are-pwas/  )
 ## Additional Node Module Required for Server
 Express is the web framework used here for Node.js  
 `npm install express --save`
+
+      *The projects expects the interested developers to use a database on server or cloud for data storage and authentication.
