@@ -1,5 +1,5 @@
 # Peper
-An Angular Project with simple browser solution for note keeping using in-browser database IndexedDB with a layer of Dexie.js wrapper and SCSS for styling. Express.js, a minimalist web framework for Node.js is used for Backend to host the project on the server.  
+An Angular Project with a simple browser solution for note keeping using in-browser database IndexedDB with a layer of Dexie.js wrapper and SCSS for styling. Express.js, a minimalist web framework for Node.js is used for Backend to host the project on the server.  
 The project follows the guidelines of Progressive Web Apps. It is installable with full offline support.
 
 ## Development server
