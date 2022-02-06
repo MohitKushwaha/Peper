@@ -1,0 +1,25 @@
+.parent {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-bottom: 120px;
+}
+
+.archive-back-color {
+    background-color: #74ff93;
+}
+
+.heading, .content {
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+    cursor: default;
+}
+.heading {
+    font-size: 1.5em;
+}
+.content {
+    font-size: 1.2em;
+}

@@ -1,0 +1,22 @@
+<div class="parent">
+    <div class="face">
+        <span class="material-icons-two-tone">face</span>
+    </div>
+    <div class="contain">
+        <div class="save">
+            <span class="material-icons-two-tone rotate" [class.display-none]="!savingVisi">sync</span>
+            <span [class.display-none]="!savingVisi">saving</span>
+            <span class="material-icons-two-tone" [class.visibility-hidden]="!saveVisi">task_alt</span>
+            <span [class.visibility-hidden]="!saveVisi">saved</span>
+        </div>
+        <div id="name" class="name" contenteditable="true" (focusout)="update()">{{profile.name}}</div>
+    </div>
+    <div class="email">
+        <div class="font-1-5">{{profile.email}}</div>
+        <div class="font-1-5">{{pepersCount}} pepers</div>
+        <div class="pep-dist">
+            <div>{{activeCount}} active</div>
+            <div>{{archivedCount}} archived</div>
+        </div>
+    </div>
+</div>

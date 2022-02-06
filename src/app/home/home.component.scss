@@ -1,0 +1,28 @@
+.parent {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-bottom: 120px;
+}
+
+.active-back-color {
+    background-color: #E6FB04;
+}
+
+.heading, .content {
+    background-color: #00000006;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+}
+.heading {
+    font-size: 1.5em;
+}
+.content {
+    font-size: 1.2em;
+}
+.heading:hover, .content:hover {
+    border: 1px solid #00000080;
+    cursor: text;
+}

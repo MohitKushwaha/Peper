@@ -1,0 +1,15 @@
+<div class="parent" [class.display-grid]="popupVisi" [class.display-none]="!popupVisi">
+    <div class="pop-up">
+        <div>Full Name</div>
+        <input id="pop-name" type="text" (change)="update()">
+        <div>Email*</div>
+        <input id="pop-email" type="email" (change)="update()">
+        <div>
+            <span class="material-icons-two-tone rotate" [class.visibility-hidden]="!savingVisi">sync</span>
+            <span [class.visibility-hidden]="!savingVisi">saving</span>
+            <span class="material-icons-two-tone" [class.display-none]="!saveVisi">task_alt</span>
+            <span [class.display-none]="!saveVisi">saved</span>
+        </div>
+        <div><span class="material-icons-two-tone" [class.visibility-hidden]="!cancelVisi" (click)="popupVisi = false;" title="Close">cancel</span></div>
+    </div>
+</div>

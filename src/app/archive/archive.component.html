@@ -1,0 +1,14 @@
+<div class="parent">
+    <div class="no-peper" *ngIf="pepers.length == 0">no archived peper</div>
+    <ng-container *ngFor="let p of pepers; let in = index">
+        <div *ngIf="p.archive" class="peper-note archive-back-color">
+            <div>
+                <span class="material-icons-two-tone" title="Unarchive" (click)="unarchive(in)">unarchive</span>
+                <span class="material-icons-two-tone" title="Delete Forever" (click)="delete(in)">delete_forever</span>
+            </div>
+            <div>{{p.milli | date : 'hh:mm a MMM d, y'}}</div>
+            <div class="heading" contenteditable="true">{{p.heading}}</div>
+            <div class="content" contenteditable="true">{{p.content}}</div>
+        </div>
+    </ng-container>
+</div>

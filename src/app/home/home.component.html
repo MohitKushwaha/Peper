@@ -1,0 +1,22 @@
+<div class="parent">
+    <div class="no-peper" *ngIf="pepers.length == 0">no active peper</div>
+    <ng-container *ngFor="let p of pepers; let in = index">
+        <div *ngIf="!p.archive" class="peper-note active-back-color">
+            <div>
+                <div style="display: none;" id="{{p.milli + 'saving'}}">
+                    <span class="material-icons-two-tone rotate">sync</span>
+                    <span>saving</span>
+                </div>
+                <div style="display: none;" id="{{p.milli + 'saved'}}">
+                    <span class="material-icons-two-tone">task_alt</span>
+                    <span>saved</span>
+                </div>
+                <span class="material-icons-two-tone" title="Archive" (click)="archive(in)">archive</span>
+                <span class="material-icons-two-tone" title="Delete Forever" (click)="delete(in)">delete_forever</span>
+            </div>
+            <div>{{p.milli | date : 'hh:mm a MMM d, y'}}</div>
+            <div class="heading" contenteditable="true" (focusout)="update($event, p.milli, 'heading')">{{p.heading}}</div>
+            <div class="content" contenteditable="true" (focusout)="update($event, p.milli, 'content')">{{p.content}}</div>
+        </div>
+    </ng-container>
+</div>
