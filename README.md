@@ -1,7 +1,6 @@
 # Peper
-An Angular Project with simple browser solution for note keeping using in-browser database IndexedDB with a layer of Dexie.js wrapper and SCSS for styling.  
-The project follows the guidelines of Progressive Web Apps. It is installable with full offline support.     
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.5.
+An Angular Project with simple browser solution for note keeping using in-browser database IndexedDB with a layer of Dexie.js wrapper and SCSS for styling. Express.js, a minimalist web framework for Node.js is used for Backend to host the project on the server.  
+The project follows the guidelines of Progressive Web Apps. It is installable with full offline support.
 
 ## Development server
 
@@ -28,16 +27,21 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
 ## Additional Node Module Required for App
+
 IndexedDB is the low-level API for client-side storage (in-browser database)  
 Dexie.js is the Minimalistic Wrapper for IndexedDB  
 `npm install dexie`
 
 ## Additional Angular Module Required for App
-Learn more about [Progressive Web Apps](https://web.dev/what-are-pwas/  )  
+
+Learn more about [Progressive Web Apps](https://web.dev/what-are-pwas/)  
 `ng add @angular/pwa`
 
 ## Additional Node Module Required for Server
+
 Express is the web framework used here for Node.js  
 `npm install express --save`
 
-      *The projects expects the interested developers to use a database on server or cloud for data storage and authentication.
+## Additional Node Module Required for Server
+
+The projects expects the interested developers to use a database on server or cloud for data storage and authentication.
