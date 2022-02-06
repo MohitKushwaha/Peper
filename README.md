@@ -32,7 +32,7 @@ Dexie.js is the Minimalistic Wrapper for IndexedDB
 `npm install dexie`
 
 ## Additional Angular Module Required for App
-Learn more about [Progressive Web Apps](https://web.dev/what-are-pwas/  )
+Learn more about [Progressive Web Apps](https://web.dev/what-are-pwas/  )  
 `ng add @angular/pwa`
 
 ## Additional Node Module Required for Server
